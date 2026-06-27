@@ -1,7 +1,6 @@
 /target
 Cargo.lock
 **/*.rs.bk
-.env
 /coverage
 test_snapshots/
 *.profraw
@@ -13,7 +12,6 @@ test_snapshots/
 /.remember/
 
 # Editor / IDE artifacts
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -27,3 +25,5 @@ verify_preservation_baseline.pdb
 # Compiled WASM artifacts (built into target/, but also possible at workspace root)
 *.wasm
 .aider*
+config.bat
+node_modules
